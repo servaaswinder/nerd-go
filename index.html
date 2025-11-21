@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welkom op Nerd-Go</title>
-    <style>
-        body { font-family: sans-serif; text-align: center; padding: 50px; }
-    </style>
+    <title>Nerd-Go Terminal</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hallo wereld!</h1>
-    <p>nerd-go.nl is binnenkort live.</p>
+    <div class="crt">
+        <div class="terminal">
+            <div class="output" id="output"></div>
+            <div class="input-line">
+                <span class="prompt">&gt;</span>
+                <span id="user-input"></span>
+                <span class="cursor">_</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
