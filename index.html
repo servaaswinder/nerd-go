@@ -8,13 +8,104 @@
 </head>
 <body>
     <div class="crt">
-        <div class="terminal">
-            <div class="output" id="output"></div>
-            <div class="input-line">
-                <span class="prompt">&gt;</span>
-                <span id="user-input"></span>
-                <span class="cursor">_</span>
+        <div class="container">
+            <header>
+                <div class="prompt-line">[root@nerd-go.nl ~]$ <span class="cursor">_</span></div>
+                <div class="header-title">
+                    ================================================================
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NERD-GO.NL
+                    <br>
+                    ================================================================
+                </div>
+            </header>
+
+            <nav class="nav-grid">
+                <a href="#">&gt; /home (cd ~)</a>
+                <a href="#">&gt; /leaderboards (top)</a>
+                <a href="#">&gt; /minecraft_server</a>
+                <a href="#">&gt; /compieter</a>
+                <a href="#">&gt; /nerdnb-go.nl</a>
+                <a href="#">&gt; /playersng</a>
+                <a href="#">&gt; /gana-compaindab</a>
+            </nav>
+
+            <div class="box motd-box">
+                <div class="box-title">MOTD</div>
+                <div class="motd-content">
+                    0100101 11t1110 100001 ac: 0001001 0101111<br>
+                    0100011 ITElauM 110101 n: 0010018 00101011<br>
+                    01101011: rariaan | 09000 | (00010)? rorfaan !0100000)
+                </div>
+                <div class="spaceship">
+                    &nbsp;&nbsp;&nbsp;^<br>
+                    &nbsp;&nbsp;/ \<br>
+                    &nbsp;/ | \<br>
+                    / -+- \<br>
+                    &nbsp;&nbsp;^ ^
+                </div>
             </div>
+
+            <div class="main-grid">
+                <div class="box">
+                    <div class="box-title">BETA-BLOK</div>
+                    <div class="math-content">
+                        <!-- Simple ASCII representation of the integral for now -->
+                        &nbsp;&nbsp;2<br>
+                        &nbsp;/<br>
+                        | &nbsp;x²·x + 1<br>
+                        |  -------- &nbsp;= e⁻³ dx<br>
+                        / &nbsp;sinx² - 1<br>
+                        -0
+                    </div>
+                    <div class="quotes">
+                        <p>Docent:<br>"Te mang contanati toupen at mr saome."</p>
+                        <p>"In the talk aound you need Pro thindover!"</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="box-title">DE 'ECHTE' AGENDA</div>
+                    <ul class="agenda-list">
+                        <li>
+                            <strong>LAN party:</strong><br>
+                            Thun 13 January 15:57<br>
+                            End: 17:30
+                        </li>
+                        <li>
+                            <strong>D&D sessions:</strong><br>
+                            10:00 fest, 11:30
+                        </li>
+                        <li>
+                            <strong>D&D sessions:</strong><br>
+                            13 december, 14:00
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="box">
+                    <div class="box-title">HARDWARE & GAMING</div>
+                    <div class="hardware-stats">
+                        <p><strong>Minecraft server:</strong><br>
+                        Uptime: 42 days<br>
+                        Uptime: 42 days</p>
+                        
+                        <p><strong>Project builds:</strong><br>
+                        Auto-huiswerk-maker v3.1<br>
+                        Auto-huiswerk-maker v3.2<br>
+                        Auto-huiswerk-maker v2.3<br>
+                        ...</p>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer-text">
+                    All your base are belong to Northgo.<br>
+                    Konami Code status: <span id="konami-status" style="color: red;">DISABLED</span>
+                </div>
+                <button id="noodknop" class="noodknop">NOODKNOP</button>
+            </footer>
         </div>
     </div>
     <script src="script.js"></script>
