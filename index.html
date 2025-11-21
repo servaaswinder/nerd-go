@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nerd-Go Terminal</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
     <div class="crt">
@@ -50,17 +52,12 @@
                 <div class="box">
                     <div class="box-title">BETA-BLOK</div>
                     <div class="math-content">
-                        <!-- Simple ASCII representation of the integral for now -->
-                        &nbsp;&nbsp;2<br>
-                        &nbsp;/<br>
-                        | &nbsp;x²·x + 1<br>
-                        |  -------- &nbsp;= e⁻³ dx<br>
-                        / &nbsp;sinx² - 1<br>
-                        -0
+                        \[ \int_{-0}^{2} \frac{x^2 \cdot x + 1}{\sin(x^2) - 1} = e^{-3} \, dx \]
                     </div>
                     <div class="quotes">
                         <p>Docent:<br>"Te mang contanati toupen at mr saome."</p>
                         <p>"In the talk aound you need Pro thindover!"</p>
+                        <p>Einstein:<br>"God dobbelt niet."</p>
                     </div>
                 </div>
 
@@ -69,16 +66,25 @@
                     <ul class="agenda-list">
                         <li>
                             <strong>LAN party:</strong><br>
-                            Thun 13 January 15:57<br>
-                            End: 17:30
+                            Do 13 Januari 15:57<br>
+                            Einde: 17:30
                         </li>
                         <li>
-                            <strong>D&D sessions:</strong><br>
-                            10:00 fest, 11:30
+                            <strong>D&D sessie:</strong><br>
+                            Zat 10:00 - 14:00<br>
+                            Campaign: "The Lost Bit"
                         </li>
                         <li>
-                            <strong>D&D sessions:</strong><br>
+                            <strong>Natuurkunde Olympiade:</strong><br>
                             13 december, 14:00
+                        </li>
+                        <li>
+                            <strong>Hackathon:</strong><br>
+                            Vrijdag de 13e, 20:00
+                        </li>
+                        <li>
+                            <strong>Star Wars Marathon:</strong><br>
+                            4 Mei (May the 4th)
                         </li>
                     </ul>
                 </div>
@@ -87,14 +93,20 @@
                     <div class="box-title">HARDWARE & GAMING</div>
                     <div class="hardware-stats">
                         <p><strong>Minecraft server:</strong><br>
-                        Uptime: 42 days<br>
-                        Uptime: 42 days</p>
+                        Uptime: 42 dagen, 6 uur<br>
+                        Players: 5/20<br>
+                        TPS: 20.0</p>
                         
+                        <p><strong>Raspberry Pi Cluster:</strong><br>
+                        Nodes: 4<br>
+                        Temp: 45°C<br>
+                        Status: CRUNCHING DATA</p>
+
                         <p><strong>Project builds:</strong><br>
-                        Auto-huiswerk-maker v3.1<br>
-                        Auto-huiswerk-maker v3.2<br>
-                        Auto-huiswerk-maker v2.3<br>
-                        ...</p>
+                        Auto-huiswerk-maker v3.1 [STABLE]<br>
+                        Auto-huiswerk-maker v3.2 [BETA]<br>
+                        Auto-huiswerk-maker v2.3 [LEGACY]<br>
+                        Koffie-zet-robot v0.1 [EXPLOSIVE]</p>
                     </div>
                 </div>
             </div>

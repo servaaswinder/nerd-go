@@ -138,9 +138,19 @@ a:hover {
 
 /* Content Specifics */
 .math-content {
-    white-space: pre;
+    /* white-space: pre; Removed for MathJax */
     font-family: monospace;
     margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+/* Force MathJax to use our terminal green */
+.mjx-chtml {
+    color: var(--terminal-text) !important;
+    outline: none !important;
+}
+.mjx-container {
+    color: var(--terminal-text) !important;
 }
 
 .quotes p {
