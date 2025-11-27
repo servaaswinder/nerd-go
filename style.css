@@ -120,6 +120,39 @@ a:hover {
     text-shadow: 0 0 5px #aaddff;
 }
 
+/* Terminal Box */
+.terminal-box {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'VT323', monospace;
+    font-size: 1.1em;
+}
+
+#terminal-output {
+    flex-grow: 1;
+    white-space: pre-wrap;
+    margin-bottom: 5px;
+}
+
+.terminal-input-line {
+    display: flex;
+    align-items: center;
+}
+
+#terminal-input {
+    background: transparent;
+    border: none;
+    color: var(--terminal-text);
+    font-family: 'VT323', monospace;
+    font-size: 1em;
+    flex-grow: 1;
+    outline: none;
+    margin-left: 5px;
+    caret-color: var(--terminal-text); /* Blinking cursor color */
+    text-shadow: 0 0 3px var(--terminal-glow);
+}
+
 /* Main Grid */
 .main-grid {
     display: grid;
